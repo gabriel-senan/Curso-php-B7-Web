@@ -1,6 +1,3 @@
-Opa <?php 
-
-echo "Gabriel ";
-echo "Sena";
-
+<?php
+echo "Gabriel Sena";
 ?>
