@@ -1,3 +1,4 @@
 <?php
-echo "Gabriel Sena";
+$x = 10;
+echo $x + 2;
 ?>
