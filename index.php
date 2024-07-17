@@ -1,4 +1,8 @@
 <?php
-$numero = 10;
-echo "E ai";
+$nome = "Gabriel Sena "; // String
+$idade = 90;    // Inteiro
+$dormindo = true;   // Boolean
+$vazia = null;  // vazio
+
+echo $nome, $idade;
 ?>
