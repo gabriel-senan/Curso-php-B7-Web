@@ -1,8 +1,11 @@
 <?php
-$nome = "Gabriel Sena "; // String
-$idade = 90;    // Inteiro
-$dormindo = true;   // Boolean
-$vazia = null;  // vazio
+$nome = "Gabriel";
+$sobrenome = "Sena";
 
-echo $nome, $idade;
+$nomeCompleto = $nome;
+$nomeCompleto .= $sobrenome;    #concatenação
+
+
+echo $nomeCompleto;
+
 ?>
