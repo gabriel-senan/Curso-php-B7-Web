@@ -1,6 +1,6 @@
 <?php
 $ingredientes = [
-    'açúcar',
+    'açúcar' => "doce",
     'farinha de trigo',
     'ovos',
     'leite',
@@ -9,5 +9,6 @@ $ingredientes = [
 
 $numerosDaMegaSena = [12, 5, 3, 18, 22, 17];
 
-echo "Ingrediente selecionado: ".$ingredientes[3]. "</br>";
+echo "Ingrediente selecionado: ".$ingredientes[0]. "</br>";
+
 echo "Número selecionado: ". $numerosDaMegaSena[0];
