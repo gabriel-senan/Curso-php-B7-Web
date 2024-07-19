@@ -1,11 +1,13 @@
 <?php
-$nome = "Gabriel";
-$sobrenome = "Sena";
+$ingredientes = [
+    'açúcar',
+    'farinha de trigo',
+    'ovos',
+    'leite',
+    'ferment em pó'
+];
 
-$nomeCompleto = $nome;
-$nomeCompleto .= $sobrenome;    #concatenação
+$numerosDaMegaSena = [12, 5, 3, 18, 22, 17];
 
-
-echo $nomeCompleto;
-
-?>
+echo "Ingrediente selecionado: ".$ingredientes[3]. "</br>";
+echo "Número selecionado: ". $numerosDaMegaSena[0];
