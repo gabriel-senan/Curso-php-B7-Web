@@ -1,9 +1,12 @@
 <?php
 $idade = 15;
 
-if ($idade >= 18) {
+/*if ($idade >= 18) {
     echo "Maior de idade";
 } else {
-    echo "Menor de idade";
-}
-// operador ernário: if de uma linha
+    echo "Menor de idade\n";
+} */
+
+$maiorDeIdade = ($idade < 18) ? false : true; // operador ernário: if de uma linha
+
+echo $maiorDeIdade;
