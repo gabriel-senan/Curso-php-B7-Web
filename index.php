@@ -6,3 +6,4 @@ if ($idade >= 18) {
 } else {
     echo "Menor de idade";
 }
+// operador ernário: if de uma linha
