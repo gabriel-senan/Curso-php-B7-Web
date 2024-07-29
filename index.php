@@ -7,6 +7,6 @@ $idade = 15;
     echo "Menor de idade\n";
 } */
 
-$maiorDeIdade = ($idade < 18) ? false : true; // operador ernário: if de uma linha
+$maiorDeIdade = ($idade < 18) ? false : true; // operador tcleernário: if de uma linha
 
 echo $maiorDeIdade;
