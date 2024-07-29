@@ -1,5 +1,7 @@
 <?php
-$idade = 15;
+$nome = 'Gabriel';
+
+
 
 /*if ($idade >= 18) {
     echo "Maior de idade";
@@ -7,6 +9,14 @@ $idade = 15;
     echo "Menor de idade\n";
 } */
 
-$maiorDeIdade = ($idade < 18) ? false : true; // operador tcleernário: if de uma linha
+$nomeCompleto = $nome ?? "Visitante";
+//$nomeCompleto .= isset($sobrenome) ? $sobrenome : "";
 
-echo $maiorDeIdade;
+$nomeCompleto .= $sobrenome ?? '';
+
+
+// $maiorDeIdade = ($idade < 18) ? false : true; // operador tcleernário: if de uma linha
+
+// echo $maiorDeIdade;
+
+echo $nomeCompleto;
