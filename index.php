@@ -1,22 +1,14 @@
 <?php
-$nome = 'Gabriel';
+$tipo = 'foto';
 
-
-
-/*if ($idade >= 18) {
-    echo "Maior de idade";
-} else {
-    echo "Menor de idade\n";
-} */
-
-$nomeCompleto = $nome ?? "Visitante";
-//$nomeCompleto .= isset($sobrenome) ? $sobrenome : "";
-
-$nomeCompleto .= $sobrenome ?? '';
-
-
-// $maiorDeIdade = ($idade < 18) ? false : true; // operador tcleernário: if de uma linha
-
-// echo $maiorDeIdade;
-
-echo $nomeCompleto;
+switch($tipo) {
+    case 'foto':
+        echo 'exibindo foto';
+        break;
+    case 'video':
+            echo 'exibindo video';
+            break;
+    case 'texto':
+            echo 'exibindo texto';
+            break;
+}
