@@ -1,14 +1,8 @@
 <?php
-$tipo = 'foto';
+$numero = 0;
 
-switch($tipo) {
-    case 'foto':
-        echo 'exibindo foto';
-        break;
-    case 'video':
-            echo 'exibindo video';
-            break;
-    case 'texto':
-            echo 'exibindo texto';
-            break;
+while($numero <= 10) {
+    echo "N: ".$numero."\n";
+
+    $numero += 1;
 }
