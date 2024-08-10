@@ -12,7 +12,7 @@ while($numero <= 10) {
     echo "N: ".$numero."\n";
 } */
 
-$ingredientes = [
+/*$ingredientes = [
     'Açúcar',
     'Farinha de trigo',
     'Leite',
@@ -20,4 +20,6 @@ $ingredientes = [
 ];
 foreach($ingredientes as $chave => $valor) {
     echo "Item: ".($chave + 1).": ".$valor."\n";
-}
+}*/
+
+// Começando a trabalhar com funçoes
