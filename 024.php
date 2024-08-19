@@ -1,5 +1,5 @@
 <?php
-function somar($n1, $n2, $n3 = 0){
+function somar(int $n1, int $n2 = 0, $n3 = 0){
     $total = $n1 + $n2 +$n3;
     return $total;
 }
