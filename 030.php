@@ -14,5 +14,5 @@ echo strtolower($nome) . "\n";
 echo strtoupper($nome) . "\n";
 
 $nomeAlterado = str_replace("a", "4", $nome);
-echo $nomeAlterado; /*
+echo $nomeAlterado; */
 
