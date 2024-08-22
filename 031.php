@@ -6,5 +6,6 @@ $posicao = strpos($nomeCompleto, "n");
 
 echo $posicao;  */
 
-$nomeCompleto = "gabriel";
-echo ucfirst($nomeCompleto);
+$nomeCompleto = "gabriel sena";
+echo ucfirst($nomeCompleto) . "\n";
+echo ucwords($nomeCompleto);
