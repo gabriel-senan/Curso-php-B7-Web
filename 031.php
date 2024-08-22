@@ -1,7 +1,10 @@
 <?php
-
+/*
 $nomeCompleto = "Gabriel Sena ";
 
 $posicao = strpos($nomeCompleto, "n");
 
-echo $posicao;
+echo $posicao;  */
+
+$nomeCompleto = "gabriel";
+echo ucfirst($nomeCompleto);
