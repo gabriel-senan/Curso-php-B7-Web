@@ -16,3 +16,7 @@ echo strtoupper($nome) . "\n";
 $nomeAlterado = str_replace("a", "4", $nome);
 echo $nomeAlterado; */
 
+
+$nomeCompleto = "Gabriel Sena";
+$nome = substr($nomeCompleto, 3, 3);
+echo $nome;
