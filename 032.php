@@ -23,3 +23,9 @@ $filtrados = array_filter($numeros, function($item){
 
 print_r($filtrados); */
 
+$numeros = [10, 20, 24, 91, 18];
+$dobrados = array_map(function($item){
+    return $item * 2;
+},$numeros);
+
+print_r($dobrados);
