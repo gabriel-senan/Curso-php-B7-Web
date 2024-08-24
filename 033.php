@@ -34,4 +34,14 @@ sort($numeros);     //ordem crescente
 
 print_r($numeros); */
 
+/*
+$nome = "gabriel sena nascimento";
+$nomes = explode(" ", $nome);
+print_r($nomes); */
 
+
+$nomes = ["gabrie", "sena", "nascimento"];
+
+$nome= implode(" ", $nomes);
+
+echo $nome;
