@@ -26,7 +26,12 @@ $pos = array_search(17, $numeros);
 
 echo $pos; */
 
+/*
 $numeros = [10, 20, 24, 91, 18];
-sort($numeros);
+asort($numeros);
+sort($numeros);     //ordem crescente 
+//rsort($numeros);    //ordem decrescente
 
-print_r($numeros);
+print_r($numeros); */
+
+
