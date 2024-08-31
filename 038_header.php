@@ -1,2 +1,2 @@
-<h1>Cabeçalho 2.0</h1>
+<h1>Cabeçalho</h1>
 <hr/>
