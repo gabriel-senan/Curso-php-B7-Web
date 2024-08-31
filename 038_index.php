@@ -2,7 +2,7 @@
 require("038_header.php");
 ?>
 
-<form method="POST">
+<form method="POST" action="038_recebedor.php">
 
     <label>
         Nome:
