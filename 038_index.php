@@ -18,4 +18,7 @@ require("038_header.php");
     </label>
     <br />
     <br />
+
+    <input type="submit" value="Enviar" />
+
 </form>
