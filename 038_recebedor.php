@@ -1,9 +1,9 @@
 <?php
 $nome = filter_input(INPUT_POST, "nome");
-$email = filter_input(INPUT_POST, "email");
-$idade = filter_input(INPUT_POST, "idade");
+$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
+$idade = filter_input(INPUT_POST, "idade", FILTER_SANITIZE_NUMBER_INT);
 
-if($nome) {
+if($nome && $email && $idade) {
     echo 'NOME: ' . $nome . "<br/>";
     echo 'EMAIL: ' . $email . "<br/>";
     echo 'IDADE: ' . $idade;
