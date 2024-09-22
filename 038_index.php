@@ -12,6 +12,16 @@ require("038_header.php");
     <br />
     <br />
     <label>
+
+    <label>
+        E-mail:
+        <br />
+        <input type="text" name="email" />
+    </label>
+    <br />
+    <br />
+    <label>
+
         Idade:
         <br />
         <input type="text" name="idade" />
