@@ -1,9 +1,10 @@
 <?php
-$nome = filter_input(INPUT_GET, "nome");
-$idade = filter_input(INPUT_GET, "idade");
+$nome = filter_input(INPUT_POST, "nome");
+$idade = filter_input(INPUT_POST, "idade");
 
 if($nome && $idade) {
     echo 'NOME: ' . $nome . "<br/>";
+    echo 'IDADE: ' . $idade;
 } else {
     echo "NÃO ENVIOU!";
 }
