@@ -1,4 +1,5 @@
 <?php
+session_start();
 require("038_header.php");
 ?>
 
