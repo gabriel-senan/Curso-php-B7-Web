@@ -1,6 +1,11 @@
 <?php
 session_start();
 require("038_header.php");
+
+if($_SESSION['aviso']) {
+    echo $_SESSION['aviso'];
+    $_SESSION['aviso'] = '';
+}
 ?>
 
 <form method="POST" action="038_recebedor.php">
