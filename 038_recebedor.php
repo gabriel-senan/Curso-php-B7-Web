@@ -7,12 +7,15 @@ $idade = filter_input(INPUT_POST, "idade", FILTER_SANITIZE_NUMBER_INT);
 
 
 if($nome && $email && $idade) {
+    $espiracao = time() + (86400 * 30);
+    setcookie('nome', $nome, $espiracao);
+
     echo 'NOME: ' . $nome . "<br/>";
     echo 'EMAIL: ' . $email . "<br/>";
     echo 'IDADE: ' . $idade;
 } else {
     $_SESSION['aviso'] = 'Preencha tudo corretamente!';
-    
+
     header("Location: 038_index.php");
     exit;
 }
